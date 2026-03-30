@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	@@include('components/_head.html',{
-		"title": "Kajo"
-	})
+	<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kajo</title>
+	<!-- Start:css -->
+	<link rel="stylesheet" href="css/main.min.css">
+	<!-- End:css -->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js" defer></script>
+	<!-- Start:js -->
+	<script src="js/main.min.js" defer></script>
+	<!-- End:js -->
+</head>
 <body>
 	<main id="main">
-		<section class="intro-section">
+		<section id="intro-section" class="intro-section">
 			<div class="container">
 				<div class="columns-block">
 					<div class="img-column">
@@ -310,6 +320,44 @@
 			</div>
 		</section>
 	</main>
-	@@include('components/_footer.html',{})
+	<footer id="footer">
+	<div class="container">
+        <div class="title-holder">
+            <h3>KAjO©</h3>
+        </div>
+        <nav class="footer-menu">
+            <ul class="pages-list footer-list">
+                <li>(Pages)</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Studio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="cms-list footer-list">
+                <li>(CMS)</li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Work Single</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Blog Single</a></li>
+            </ul>
+            <ul class="utility-list footer-list">
+                <li>(Utility Pages)</li>
+                <li><a href="#">404</a></li>
+                <li><a href="#">Licensing</a></li>
+            </ul>
+            <ul class="socials-list footer-list">
+                <li>(Socials)</li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Behance</a></li>
+                <li><a href="#">Dribbble</a></li>
+            </ul>
+        </nav>
+        <div class="bottom-block">
+            <span class="copyright">By Gola Templates</span>
+            <span class="anchor-link"><a href="#intro-section">Back to Top</a></span>
+        </div>
+    </div>
+</footer>
+
 </body>
 </html>
